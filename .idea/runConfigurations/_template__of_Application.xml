@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="Application" factoryName="Application">
+    <module name="Chat_App" />
+    <option name="VM_PARAMETERS" value="--module-path &quot;D:\UIU CSE\Codes &amp; Libs\JavaLib\javafx-sdk-24.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

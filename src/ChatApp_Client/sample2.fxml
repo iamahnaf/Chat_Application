@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="apMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatApp_Client.Controller">
+    <children>
+        <Button fx:id="buttonSend" layoutX="371.0" layoutY="308.0" mnemonicParsing="false" text="Send" />
+        <TextField fx:id="MessageField" layoutX="22.0" layoutY="302.0" prefHeight="37.0" prefWidth="332.0" />
+        <ScrollPane fx:id="spMain" layoutX="22.0" layoutY="44.0" prefHeight="251.0" prefWidth="391.0">
+            <content>
+                <VBox fx:id="vbMain" prefHeight="248.0" prefWidth="382.0" />
+            </content>
+        </ScrollPane>
+        <Label fx:id="myLabel" alignment="CENTER" prefHeight="37.0" prefWidth="435.0" text="Messenger" textFill="#118cae">
+            <font>
+                <Font name="Dubai Regular" size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
