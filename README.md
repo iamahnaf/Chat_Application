@@ -11,7 +11,7 @@ A simple **chat application** built with **JavaFX** for GUI and **Java Sockets**
 
 ---
 
-## How to Run ▶️
+## How to Run
 
 ### 1. Run the Server (FIRST RUN THIS)
 1. Open the `Server` project in your IDE (e.g., IntelliJ).  
