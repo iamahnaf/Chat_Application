@@ -28,6 +28,6 @@ client = new Client(new Socket("SERVER_IP_HERE", 1234));
 ## JavaFX Library Note
 
 - The **JavaFX library files are included** in this repository.  
-- If you import the project, **just update the project structure** to point to the `lib` folder containing JavaFX.  
+- If you import the project, **just update the project structure** to point to the `lib` folder containing JavaFX and add the VM.  
 - No need to download JavaFX separately.  
 
