@@ -39,7 +39,7 @@ public class Controller implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         try{
-            server = new Server(new ServerSocket(1234));
+            server = new Server(new ServerSocket(5001));
         } catch (IOException e) {
             System.out.println("Error Creating server");
         }
