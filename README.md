@@ -25,6 +25,12 @@ A simple **chat application** built with **JavaFX** for GUI and **Java Sockets**
 ```java
 client = new Client(new Socket("SERVER_IP_HERE", 1234));
 ```
+### ScreenShot
+
+![Screenshot 1](ss/ss.png)
+
+
+
 ## JavaFX Library Note
 
 - The **JavaFX library files are included** in this repository.  
