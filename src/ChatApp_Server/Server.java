@@ -46,7 +46,7 @@ public class Server {
                      String messageFromClient = bufferedReader.readLine();
                      Controller.addLabel(messageFromClient,vbox);
                  }catch (IOException e){
-                     System.out.println("Error receiving message from client");
+                     System.out.println("Error Receiving Message from Client");
                      e.printStackTrace();
                      closeEverything(socket,bufferedReader,bufferedWriter);
                      break;
