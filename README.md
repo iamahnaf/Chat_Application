@@ -2,14 +2,14 @@
 
 A simple **chat application** built with **JavaFX** for GUI and **Java Sockets** for client-server communication. This project allows real-time messaging between a server and one or multiple clients.  
 
----
+----
 
 ## Features
 
 - Real-time chat between server and client.  
 - User-friendly GUI built with JavaFX.  
 
----
+----
 
 ## How to Run
 
